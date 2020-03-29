@@ -1,0 +1,1243 @@
+
+(IRHomework_2) ⋊> ~/R/2/C/h/f/feat3_RankLib_scores /bin/bash  /Users/ramc/ResearchSpace/2020_Spring_semester/CS-572_IR/homework_2/feature_selection/feat3_RankLib_scores/step2_train_models_for_model_selection.sh 
+0
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold1/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold1/vali.txt
+Feature vector representation: Dense.
+Ranking method: MART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/MART/Fold1/model.MART.fold1.txt
+
+[+] MART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold1/train.txt]... [Done.]            
+(1017 ranked lists, 42158 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold1/vali.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+
+Model saved to: ./model_selection/MART/Fold1/model.MART.fold1.txt
+
+Discard orig. features
+Model file:     ./model_selection/MART/Fold1/model.MART.fold1.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          MART
+Reading feature file [../../../project_2/MQ2007/Fold1/test.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+NDCG@10 on test data: 0.466
+Per-ranked list performance saved to: ./model_selection/MART/Fold1/model_test_performance.NDCG@10.MART.fold1.txt
+0
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold2/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold2/vali.txt
+Feature vector representation: Dense.
+Ranking method: MART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/MART/Fold2/model.MART.fold2.txt
+
+[+] MART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold2/train.txt]... [Done.]            
+(1017 ranked lists, 41958 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold2/vali.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+
+Model saved to: ./model_selection/MART/Fold2/model.MART.fold2.txt
+
+Discard orig. features
+Model file:     ./model_selection/MART/Fold2/model.MART.fold2.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          MART
+Reading feature file [../../../project_2/MQ2007/Fold2/test.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+NDCG@10 on test data: 0.4328
+Per-ranked list performance saved to: ./model_selection/MART/Fold2/model_test_performance.NDCG@10.MART.fold2.txt
+0
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold3/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold3/vali.txt
+Feature vector representation: Dense.
+Ranking method: MART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/MART/Fold3/model.MART.fold3.txt
+
+[+] MART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold3/train.txt]... [Done.]            
+(1014 ranked lists, 41320 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold3/vali.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+
+Model saved to: ./model_selection/MART/Fold3/model.MART.fold3.txt
+
+Discard orig. features
+Model file:     ./model_selection/MART/Fold3/model.MART.fold3.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          MART
+Reading feature file [../../../project_2/MQ2007/Fold3/test.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+NDCG@10 on test data: 0.4584
+Per-ranked list performance saved to: ./model_selection/MART/Fold3/model_test_performance.NDCG@10.MART.fold3.txt
+0
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold4/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold4/vali.txt
+Feature vector representation: Dense.
+Ranking method: MART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/MART/Fold4/model.MART.fold4.txt
+
+[+] MART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold4/train.txt]... [Done.]            
+(1014 ranked lists, 41478 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold4/vali.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+
+Model saved to: ./model_selection/MART/Fold4/model.MART.fold4.txt
+
+Discard orig. features
+Model file:     ./model_selection/MART/Fold4/model.MART.fold4.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          MART
+Reading feature file [../../../project_2/MQ2007/Fold4/test.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+NDCG@10 on test data: 0.4115
+Per-ranked list performance saved to: ./model_selection/MART/Fold4/model_test_performance.NDCG@10.MART.fold4.txt
+0
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold5/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold5/vali.txt
+Feature vector representation: Dense.
+Ranking method: MART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/MART/Fold5/model.MART.fold5.txt
+
+[+] MART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold5/train.txt]... [Done.]            
+(1014 ranked lists, 41955 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold5/vali.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+
+Model saved to: ./model_selection/MART/Fold5/model.MART.fold5.txt
+
+Discard orig. features
+Model file:     ./model_selection/MART/Fold5/model.MART.fold5.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          MART
+Reading feature file [../../../project_2/MQ2007/Fold5/test.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+NDCG@10 on test data: 0.4429
+Per-ranked list performance saved to: ./model_selection/MART/Fold5/model_test_performance.NDCG@10.MART.fold5.txt
+1
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold1/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold1/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankNet/Fold1/model.RankNet.fold1.txt
+
+[+] RankNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold1/train.txt]... [Done.]            
+(1017 ranked lists, 42158 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold1/vali.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+
+Model saved to: ./model_selection/RankNet/Fold1/model.RankNet.fold1.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankNet/Fold1/model.RankNet.fold1.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankNet
+Reading feature file [../../../project_2/MQ2007/Fold1/test.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+NDCG@10 on test data: 0.4493
+Per-ranked list performance saved to: ./model_selection/RankNet/Fold1/model_test_performance.NDCG@10.RankNet.fold1.txt
+1
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold2/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold2/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankNet/Fold2/model.RankNet.fold2.txt
+
+[+] RankNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold2/train.txt]... [Done.]            
+(1017 ranked lists, 41958 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold2/vali.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+
+Model saved to: ./model_selection/RankNet/Fold2/model.RankNet.fold2.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankNet/Fold2/model.RankNet.fold2.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankNet
+Reading feature file [../../../project_2/MQ2007/Fold2/test.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+NDCG@10 on test data: 0.4112
+Per-ranked list performance saved to: ./model_selection/RankNet/Fold2/model_test_performance.NDCG@10.RankNet.fold2.txt
+1
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold3/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold3/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankNet/Fold3/model.RankNet.fold3.txt
+
+[+] RankNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold3/train.txt]... [Done.]            
+(1014 ranked lists, 41320 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold3/vali.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+
+Model saved to: ./model_selection/RankNet/Fold3/model.RankNet.fold3.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankNet/Fold3/model.RankNet.fold3.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankNet
+Reading feature file [../../../project_2/MQ2007/Fold3/test.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+NDCG@10 on test data: 0.432
+Per-ranked list performance saved to: ./model_selection/RankNet/Fold3/model_test_performance.NDCG@10.RankNet.fold3.txt
+1
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold4/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold4/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankNet/Fold4/model.RankNet.fold4.txt
+
+[+] RankNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold4/train.txt]... [Done.]            
+(1014 ranked lists, 41478 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold4/vali.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+
+Model saved to: ./model_selection/RankNet/Fold4/model.RankNet.fold4.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankNet/Fold4/model.RankNet.fold4.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankNet
+Reading feature file [../../../project_2/MQ2007/Fold4/test.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+NDCG@10 on test data: 0.3956
+Per-ranked list performance saved to: ./model_selection/RankNet/Fold4/model_test_performance.NDCG@10.RankNet.fold4.txt
+1
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold5/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold5/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankNet/Fold5/model.RankNet.fold5.txt
+
+[+] RankNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold5/train.txt]... [Done.]            
+(1014 ranked lists, 41955 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold5/vali.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+
+Model saved to: ./model_selection/RankNet/Fold5/model.RankNet.fold5.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankNet/Fold5/model.RankNet.fold5.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankNet
+Reading feature file [../../../project_2/MQ2007/Fold5/test.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+NDCG@10 on test data: 0.4351
+Per-ranked list performance saved to: ./model_selection/RankNet/Fold5/model_test_performance.NDCG@10.RankNet.fold5.txt
+2
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold1/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold1/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankBoost
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankBoost/Fold1/model.RankBoost.fold1.txt
+
+[+] RankBoost's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold1/train.txt]... [Done.]            
+(1017 ranked lists, 42158 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold1/vali.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+
+Model saved to: ./model_selection/RankBoost/Fold1/model.RankBoost.fold1.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankBoost/Fold1/model.RankBoost.fold1.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankBoost
+Reading feature file [../../../project_2/MQ2007/Fold1/test.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+NDCG@10 on test data: 0.4636
+Per-ranked list performance saved to: ./model_selection/RankBoost/Fold1/model_test_performance.NDCG@10.RankBoost.fold1.txt
+2
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold2/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold2/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankBoost
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankBoost/Fold2/model.RankBoost.fold2.txt
+
+[+] RankBoost's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold2/train.txt]... [Done.]            
+(1017 ranked lists, 41958 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold2/vali.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+
+Model saved to: ./model_selection/RankBoost/Fold2/model.RankBoost.fold2.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankBoost/Fold2/model.RankBoost.fold2.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankBoost
+Reading feature file [../../../project_2/MQ2007/Fold2/test.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+NDCG@10 on test data: 0.4199
+Per-ranked list performance saved to: ./model_selection/RankBoost/Fold2/model_test_performance.NDCG@10.RankBoost.fold2.txt
+2
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold3/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold3/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankBoost
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankBoost/Fold3/model.RankBoost.fold3.txt
+
+[+] RankBoost's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold3/train.txt]... [Done.]            
+(1014 ranked lists, 41320 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold3/vali.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+
+Model saved to: ./model_selection/RankBoost/Fold3/model.RankBoost.fold3.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankBoost/Fold3/model.RankBoost.fold3.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankBoost
+Reading feature file [../../../project_2/MQ2007/Fold3/test.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+NDCG@10 on test data: 0.4297
+Per-ranked list performance saved to: ./model_selection/RankBoost/Fold3/model_test_performance.NDCG@10.RankBoost.fold3.txt
+2
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold4/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold4/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankBoost
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankBoost/Fold4/model.RankBoost.fold4.txt
+
+[+] RankBoost's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold4/train.txt]... [Done.]            
+(1014 ranked lists, 41478 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold4/vali.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+
+Model saved to: ./model_selection/RankBoost/Fold4/model.RankBoost.fold4.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankBoost/Fold4/model.RankBoost.fold4.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankBoost
+Reading feature file [../../../project_2/MQ2007/Fold4/test.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+NDCG@10 on test data: 0.4067
+Per-ranked list performance saved to: ./model_selection/RankBoost/Fold4/model_test_performance.NDCG@10.RankBoost.fold4.txt
+2
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold5/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold5/vali.txt
+Feature vector representation: Dense.
+Ranking method: RankBoost
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RankBoost/Fold5/model.RankBoost.fold5.txt
+
+[+] RankBoost's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold5/train.txt]... [Done.]            
+(1014 ranked lists, 41955 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold5/vali.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+
+Model saved to: ./model_selection/RankBoost/Fold5/model.RankBoost.fold5.txt
+
+Discard orig. features
+Model file:     ./model_selection/RankBoost/Fold5/model.RankBoost.fold5.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          RankBoost
+Reading feature file [../../../project_2/MQ2007/Fold5/test.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+NDCG@10 on test data: 0.4429
+Per-ranked list performance saved to: ./model_selection/RankBoost/Fold5/model_test_performance.NDCG@10.RankBoost.fold5.txt
+3
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold1/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold1/vali.txt
+Feature vector representation: Dense.
+Ranking method: AdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/AdaRank/Fold1/model.AdaRank.fold1.txt
+
+[+] AdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold1/train.txt]... [Done.]            
+(1017 ranked lists, 42158 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold1/vali.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+
+Model saved to: ./model_selection/AdaRank/Fold1/model.AdaRank.fold1.txt
+
+Discard orig. features
+Model file:     ./model_selection/AdaRank/Fold1/model.AdaRank.fold1.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          AdaRank
+Reading feature file [../../../project_2/MQ2007/Fold1/test.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+NDCG@10 on test data: 0.4551
+Per-ranked list performance saved to: ./model_selection/AdaRank/Fold1/model_test_performance.NDCG@10.AdaRank.fold1.txt
+3
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold2/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold2/vali.txt
+Feature vector representation: Dense.
+Ranking method: AdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/AdaRank/Fold2/model.AdaRank.fold2.txt
+
+[+] AdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold2/train.txt]... [Done.]            
+(1017 ranked lists, 41958 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold2/vali.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+
+Model saved to: ./model_selection/AdaRank/Fold2/model.AdaRank.fold2.txt
+
+Discard orig. features
+Model file:     ./model_selection/AdaRank/Fold2/model.AdaRank.fold2.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          AdaRank
+Reading feature file [../../../project_2/MQ2007/Fold2/test.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+NDCG@10 on test data: 0.4131
+Per-ranked list performance saved to: ./model_selection/AdaRank/Fold2/model_test_performance.NDCG@10.AdaRank.fold2.txt
+3
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold3/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold3/vali.txt
+Feature vector representation: Dense.
+Ranking method: AdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/AdaRank/Fold3/model.AdaRank.fold3.txt
+
+[+] AdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold3/train.txt]... [Done.]            
+(1014 ranked lists, 41320 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold3/vali.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+
+Model saved to: ./model_selection/AdaRank/Fold3/model.AdaRank.fold3.txt
+
+Discard orig. features
+Model file:     ./model_selection/AdaRank/Fold3/model.AdaRank.fold3.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          AdaRank
+Reading feature file [../../../project_2/MQ2007/Fold3/test.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+NDCG@10 on test data: 0.4225
+Per-ranked list performance saved to: ./model_selection/AdaRank/Fold3/model_test_performance.NDCG@10.AdaRank.fold3.txt
+3
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold4/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold4/vali.txt
+Feature vector representation: Dense.
+Ranking method: AdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/AdaRank/Fold4/model.AdaRank.fold4.txt
+
+[+] AdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold4/train.txt]... [Done.]            
+(1014 ranked lists, 41478 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold4/vali.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+
+Model saved to: ./model_selection/AdaRank/Fold4/model.AdaRank.fold4.txt
+
+Discard orig. features
+Model file:     ./model_selection/AdaRank/Fold4/model.AdaRank.fold4.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          AdaRank
+Reading feature file [../../../project_2/MQ2007/Fold4/test.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+NDCG@10 on test data: 0.3986
+Per-ranked list performance saved to: ./model_selection/AdaRank/Fold4/model_test_performance.NDCG@10.AdaRank.fold4.txt
+3
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold5/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold5/vali.txt
+Feature vector representation: Dense.
+Ranking method: AdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/AdaRank/Fold5/model.AdaRank.fold5.txt
+
+[+] AdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold5/train.txt]... [Done.]            
+(1014 ranked lists, 41955 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold5/vali.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+
+Model saved to: ./model_selection/AdaRank/Fold5/model.AdaRank.fold5.txt
+
+Discard orig. features
+Model file:     ./model_selection/AdaRank/Fold5/model.AdaRank.fold5.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          AdaRank
+Reading feature file [../../../project_2/MQ2007/Fold5/test.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+NDCG@10 on test data: 0.431
+Per-ranked list performance saved to: ./model_selection/AdaRank/Fold5/model_test_performance.NDCG@10.AdaRank.fold5.txt
+4
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold1/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold1/vali.txt
+Feature vector representation: Dense.
+Ranking method: Coordinate Ascent
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/CoordinateAscent/Fold1/model.CoordinateAscent.fold1.txt
+
+[+] Coordinate Ascent's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold1/train.txt]... [Done.]            
+(1017 ranked lists, 42158 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold1/vali.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+
+Model saved to: ./model_selection/CoordinateAscent/Fold1/model.CoordinateAscent.fold1.txt
+
+Discard orig. features
+Model file:     ./model_selection/CoordinateAscent/Fold1/model.CoordinateAscent.fold1.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          Coordinate Ascent
+Reading feature file [../../../project_2/MQ2007/Fold1/test.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+NDCG@10 on test data: 0.4598
+Per-ranked list performance saved to: ./model_selection/CoordinateAscent/Fold1/model_test_performance.NDCG@10.CoordinateAscent.fold1.txt
+4
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold2/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold2/vali.txt
+Feature vector representation: Dense.
+Ranking method: Coordinate Ascent
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/CoordinateAscent/Fold2/model.CoordinateAscent.fold2.txt
+
+[+] Coordinate Ascent's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold2/train.txt]... [Done.]            
+(1017 ranked lists, 41958 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold2/vali.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+
+Model saved to: ./model_selection/CoordinateAscent/Fold2/model.CoordinateAscent.fold2.txt
+
+Discard orig. features
+Model file:     ./model_selection/CoordinateAscent/Fold2/model.CoordinateAscent.fold2.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          Coordinate Ascent
+Reading feature file [../../../project_2/MQ2007/Fold2/test.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+NDCG@10 on test data: 0.4263
+Per-ranked list performance saved to: ./model_selection/CoordinateAscent/Fold2/model_test_performance.NDCG@10.CoordinateAscent.fold2.txt
+4
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold3/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold3/vali.txt
+Feature vector representation: Dense.
+Ranking method: Coordinate Ascent
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/CoordinateAscent/Fold3/model.CoordinateAscent.fold3.txt
+
+[+] Coordinate Ascent's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold3/train.txt]... [Done.]            
+(1014 ranked lists, 41320 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold3/vali.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+
+Model saved to: ./model_selection/CoordinateAscent/Fold3/model.CoordinateAscent.fold3.txt
+
+Discard orig. features
+Model file:     ./model_selection/CoordinateAscent/Fold3/model.CoordinateAscent.fold3.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          Coordinate Ascent
+Reading feature file [../../../project_2/MQ2007/Fold3/test.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+NDCG@10 on test data: 0.4519
+Per-ranked list performance saved to: ./model_selection/CoordinateAscent/Fold3/model_test_performance.NDCG@10.CoordinateAscent.fold3.txt
+4
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold4/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold4/vali.txt
+Feature vector representation: Dense.
+Ranking method: Coordinate Ascent
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/CoordinateAscent/Fold4/model.CoordinateAscent.fold4.txt
+
+[+] Coordinate Ascent's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold4/train.txt]... [Done.]            
+(1014 ranked lists, 41478 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold4/vali.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+
+Model saved to: ./model_selection/CoordinateAscent/Fold4/model.CoordinateAscent.fold4.txt
+
+Discard orig. features
+Model file:     ./model_selection/CoordinateAscent/Fold4/model.CoordinateAscent.fold4.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          Coordinate Ascent
+Reading feature file [../../../project_2/MQ2007/Fold4/test.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+NDCG@10 on test data: 0.4053
+Per-ranked list performance saved to: ./model_selection/CoordinateAscent/Fold4/model_test_performance.NDCG@10.CoordinateAscent.fold4.txt
+4
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold5/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold5/vali.txt
+Feature vector representation: Dense.
+Ranking method: Coordinate Ascent
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/CoordinateAscent/Fold5/model.CoordinateAscent.fold5.txt
+
+[+] Coordinate Ascent's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold5/train.txt]... [Done.]            
+(1014 ranked lists, 41955 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold5/vali.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+
+Model saved to: ./model_selection/CoordinateAscent/Fold5/model.CoordinateAscent.fold5.txt
+
+Discard orig. features
+Model file:     ./model_selection/CoordinateAscent/Fold5/model.CoordinateAscent.fold5.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          Coordinate Ascent
+Reading feature file [../../../project_2/MQ2007/Fold5/test.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+NDCG@10 on test data: 0.4439
+Per-ranked list performance saved to: ./model_selection/CoordinateAscent/Fold5/model_test_performance.NDCG@10.CoordinateAscent.fold5.txt
+5
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold1/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold1/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/LambdaMART/Fold1/model.LambdaMART.fold1.txt
+
+[+] LambdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold1/train.txt]... [Done.]            
+(1017 ranked lists, 42158 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold1/vali.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+
+Model saved to: ./model_selection/LambdaMART/Fold1/model.LambdaMART.fold1.txt
+
+Discard orig. features
+Model file:     ./model_selection/LambdaMART/Fold1/model.LambdaMART.fold1.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaRank
+Reading feature file [../../../project_2/MQ2007/Fold1/test.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+NDCG@10 on test data: 0.36
+Per-ranked list performance saved to: ./model_selection/LambdaMART/Fold1/model_test_performance.NDCG@10.LambdaMART.fold1.txt
+5
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold2/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold2/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/LambdaMART/Fold2/model.LambdaMART.fold2.txt
+
+[+] LambdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold2/train.txt]... [Done.]            
+(1017 ranked lists, 41958 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold2/vali.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+
+Model saved to: ./model_selection/LambdaMART/Fold2/model.LambdaMART.fold2.txt
+
+Discard orig. features
+Model file:     ./model_selection/LambdaMART/Fold2/model.LambdaMART.fold2.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaRank
+Reading feature file [../../../project_2/MQ2007/Fold2/test.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+NDCG@10 on test data: 0.2938
+Per-ranked list performance saved to: ./model_selection/LambdaMART/Fold2/model_test_performance.NDCG@10.LambdaMART.fold2.txt
+5
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold3/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold3/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/LambdaMART/Fold3/model.LambdaMART.fold3.txt
+
+[+] LambdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold3/train.txt]... [Done.]            
+(1014 ranked lists, 41320 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold3/vali.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+
+Model saved to: ./model_selection/LambdaMART/Fold3/model.LambdaMART.fold3.txt
+
+Discard orig. features
+Model file:     ./model_selection/LambdaMART/Fold3/model.LambdaMART.fold3.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaRank
+Reading feature file [../../../project_2/MQ2007/Fold3/test.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+NDCG@10 on test data: 0.2818
+Per-ranked list performance saved to: ./model_selection/LambdaMART/Fold3/model_test_performance.NDCG@10.LambdaMART.fold3.txt
+5
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold4/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold4/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/LambdaMART/Fold4/model.LambdaMART.fold4.txt
+
+[+] LambdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold4/train.txt]... [Done.]            
+(1014 ranked lists, 41478 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold4/vali.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+
+Model saved to: ./model_selection/LambdaMART/Fold4/model.LambdaMART.fold4.txt
+
+Discard orig. features
+Model file:     ./model_selection/LambdaMART/Fold4/model.LambdaMART.fold4.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaRank
+Reading feature file [../../../project_2/MQ2007/Fold4/test.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+NDCG@10 on test data: 0.2331
+Per-ranked list performance saved to: ./model_selection/LambdaMART/Fold4/model_test_performance.NDCG@10.LambdaMART.fold4.txt
+5
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold5/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold5/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaRank
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/LambdaMART/Fold5/model.LambdaMART.fold5.txt
+
+[+] LambdaRank's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold5/train.txt]... [Done.]            
+(1014 ranked lists, 41955 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold5/vali.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+
+Model saved to: ./model_selection/LambdaMART/Fold5/model.LambdaMART.fold5.txt
+
+Discard orig. features
+Model file:     ./model_selection/LambdaMART/Fold5/model.LambdaMART.fold5.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaRank
+Reading feature file [../../../project_2/MQ2007/Fold5/test.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+NDCG@10 on test data: 0.3834
+Per-ranked list performance saved to: ./model_selection/LambdaMART/Fold5/model_test_performance.NDCG@10.LambdaMART.fold5.txt
+6
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold1/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold1/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaMART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/ListNet/Fold1/model.ListNet.fold1.txt
+
+[+] LambdaMART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold1/train.txt]... [Done.]            
+(1017 ranked lists, 42158 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold1/vali.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+
+Model saved to: ./model_selection/ListNet/Fold1/model.ListNet.fold1.txt
+
+Discard orig. features
+Model file:     ./model_selection/ListNet/Fold1/model.ListNet.fold1.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaMART
+Reading feature file [../../../project_2/MQ2007/Fold1/test.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+NDCG@10 on test data: 0.4516
+Per-ranked list performance saved to: ./model_selection/ListNet/Fold1/model_test_performance.NDCG@10.ListNet.fold1.txt
+6
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold2/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold2/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaMART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/ListNet/Fold2/model.ListNet.fold2.txt
+
+[+] LambdaMART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold2/train.txt]... [Done.]            
+(1017 ranked lists, 41958 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold2/vali.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+
+Model saved to: ./model_selection/ListNet/Fold2/model.ListNet.fold2.txt
+
+Discard orig. features
+Model file:     ./model_selection/ListNet/Fold2/model.ListNet.fold2.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaMART
+Reading feature file [../../../project_2/MQ2007/Fold2/test.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+NDCG@10 on test data: 0.4201
+Per-ranked list performance saved to: ./model_selection/ListNet/Fold2/model_test_performance.NDCG@10.ListNet.fold2.txt
+6
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold3/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold3/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaMART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/ListNet/Fold3/model.ListNet.fold3.txt
+
+[+] LambdaMART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold3/train.txt]... [Done.]            
+(1014 ranked lists, 41320 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold3/vali.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+
+Model saved to: ./model_selection/ListNet/Fold3/model.ListNet.fold3.txt
+
+Discard orig. features
+Model file:     ./model_selection/ListNet/Fold3/model.ListNet.fold3.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaMART
+Reading feature file [../../../project_2/MQ2007/Fold3/test.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+NDCG@10 on test data: 0.4377
+Per-ranked list performance saved to: ./model_selection/ListNet/Fold3/model_test_performance.NDCG@10.ListNet.fold3.txt
+6
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold4/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold4/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaMART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/ListNet/Fold4/model.ListNet.fold4.txt
+
+[+] LambdaMART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold4/train.txt]... [Done.]            
+(1014 ranked lists, 41478 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold4/vali.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+
+Model saved to: ./model_selection/ListNet/Fold4/model.ListNet.fold4.txt
+
+Discard orig. features
+Model file:     ./model_selection/ListNet/Fold4/model.ListNet.fold4.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaMART
+Reading feature file [../../../project_2/MQ2007/Fold4/test.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+NDCG@10 on test data: 0.4105
+Per-ranked list performance saved to: ./model_selection/ListNet/Fold4/model_test_performance.NDCG@10.ListNet.fold4.txt
+6
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold5/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold5/vali.txt
+Feature vector representation: Dense.
+Ranking method: LambdaMART
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/ListNet/Fold5/model.ListNet.fold5.txt
+
+[+] LambdaMART's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold5/train.txt]... [Done.]            
+(1014 ranked lists, 41955 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold5/vali.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+
+Model saved to: ./model_selection/ListNet/Fold5/model.ListNet.fold5.txt
+
+Discard orig. features
+Model file:     ./model_selection/ListNet/Fold5/model.ListNet.fold5.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          LambdaMART
+Reading feature file [../../../project_2/MQ2007/Fold5/test.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+NDCG@10 on test data: 0.4382
+Per-ranked list performance saved to: ./model_selection/ListNet/Fold5/model_test_performance.NDCG@10.ListNet.fold5.txt
+7
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold1/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold1/vali.txt
+Feature vector representation: Dense.
+Ranking method: ListNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RandomForests/Fold1/model.RandomForests.fold1.txt
+
+[+] ListNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold1/train.txt]... [Done.]            
+(1017 ranked lists, 42158 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold1/vali.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+
+Model saved to: ./model_selection/RandomForests/Fold1/model.RandomForests.fold1.txt
+
+Discard orig. features
+Model file:     ./model_selection/RandomForests/Fold1/model.RandomForests.fold1.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          ListNet
+Reading feature file [../../../project_2/MQ2007/Fold1/test.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+NDCG@10 on test data: 0.4411
+Per-ranked list performance saved to: ./model_selection/RandomForests/Fold1/model_test_performance.NDCG@10.RandomForests.fold1.txt
+7
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold2/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold2/vali.txt
+Feature vector representation: Dense.
+Ranking method: ListNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RandomForests/Fold2/model.RandomForests.fold2.txt
+
+[+] ListNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold2/train.txt]... [Done.]            
+(1017 ranked lists, 41958 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold2/vali.txt]... [Done.]            
+(336 ranked lists, 13652 entries read)
+
+Model saved to: ./model_selection/RandomForests/Fold2/model.RandomForests.fold2.txt
+
+Discard orig. features
+Model file:     ./model_selection/RandomForests/Fold2/model.RandomForests.fold2.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          ListNet
+Reading feature file [../../../project_2/MQ2007/Fold2/test.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+NDCG@10 on test data: 0.4082
+Per-ranked list performance saved to: ./model_selection/RandomForests/Fold2/model_test_performance.NDCG@10.RandomForests.fold2.txt
+7
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold3/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold3/vali.txt
+Feature vector representation: Dense.
+Ranking method: ListNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RandomForests/Fold3/model.RandomForests.fold3.txt
+
+[+] ListNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold3/train.txt]... [Done.]            
+(1014 ranked lists, 41320 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold3/vali.txt]... [Done.]            
+(339 ranked lists, 14013 entries read)
+
+Model saved to: ./model_selection/RandomForests/Fold3/model.RandomForests.fold3.txt
+
+Discard orig. features
+Model file:     ./model_selection/RandomForests/Fold3/model.RandomForests.fold3.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          ListNet
+Reading feature file [../../../project_2/MQ2007/Fold3/test.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+NDCG@10 on test data: 0.423
+Per-ranked list performance saved to: ./model_selection/RandomForests/Fold3/model_test_performance.NDCG@10.RandomForests.fold3.txt
+7
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold4/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold4/vali.txt
+Feature vector representation: Dense.
+Ranking method: ListNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RandomForests/Fold4/model.RandomForests.fold4.txt
+
+[+] ListNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold4/train.txt]... [Done.]            
+(1014 ranked lists, 41478 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold4/vali.txt]... [Done.]            
+(339 ranked lists, 14290 entries read)
+
+Model saved to: ./model_selection/RandomForests/Fold4/model.RandomForests.fold4.txt
+
+Discard orig. features
+Model file:     ./model_selection/RandomForests/Fold4/model.RandomForests.fold4.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          ListNet
+Reading feature file [../../../project_2/MQ2007/Fold4/test.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+NDCG@10 on test data: 0.3935
+Per-ranked list performance saved to: ./model_selection/RandomForests/Fold4/model_test_performance.NDCG@10.RandomForests.fold4.txt
+7
+
+Discard orig. features
+Training data:  ../../../project_2/MQ2007/Fold5/train.txt
+Validation data:        ../../../project_2/MQ2007/Fold5/vali.txt
+Feature vector representation: Dense.
+Ranking method: ListNet
+Feature description file:       Unspecified. All features will be used.
+Train metric:   MAP
+Test metric:    MAP
+Feature normalization: No
+Model file: ./model_selection/RandomForests/Fold5/model.RandomForests.fold5.txt
+
+[+] ListNet's Parameters:
+
+Reading feature file [../../../project_2/MQ2007/Fold5/train.txt]... [Done.]            
+(1014 ranked lists, 41955 entries read)
+Reading feature file [../../../project_2/MQ2007/Fold5/vali.txt]... [Done.]            
+(339 ranked lists, 13855 entries read)
+
+Model saved to: ./model_selection/RandomForests/Fold5/model.RandomForests.fold5.txt
+
+Discard orig. features
+Model file:     ./model_selection/RandomForests/Fold5/model.RandomForests.fold5.txt
+Feature normalization: No
+Test metric:    NDCG@10
+Model:          ListNet
+Reading feature file [../../../project_2/MQ2007/Fold5/test.txt]... [Done.]            
+(339 ranked lists, 13813 entries read)
+NDCG@10 on test data: 0.4323
+Per-ranked list performance saved to: ./model_selection/RandomForests/Fold5/model_test_performance.NDCG@10.RandomForests.fold5.txt
+(IRHomework_2) ⋊> ~/R/2/C/h/f/feat3_RankLib_scores  
